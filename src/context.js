@@ -24,7 +24,7 @@ class RoomProvider extends Component {
     getData = async ()=>{
         try {
             let response = await Client.getEntries({
-                content_type: "beachResortRoom",
+                content_type: "SubericApartments",
                 /*order: "sys.createdAt" */
                 order: "fields.price"
             });
